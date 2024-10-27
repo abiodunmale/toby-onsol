@@ -49,7 +49,9 @@ const CloudBorder = ({ className }) => (
 
 const BuyButton = ({ className = "" }) => (
   <Link
-    href={"https://dexscreener.com/solana/9hwqf6x7wja2unv9amxfxri19k9zfgwgez2ryj64qn95"}
+    href={
+      "https://dexscreener.com/solana/9hwqf6x7wja2unv9amxfxri19k9zfgwgez2ryj64qn95"
+    }
     target="_blank"
     className={`bg-white text-green-500 px-6 py-3 rounded-full hover:bg-green-100 transition duration-300 flex items-center space-x-2 transform hover:scale-105 ${className}`}
   >
@@ -218,21 +220,21 @@ export default function Component() {
                 />
               </div>
 
-              <div className="w-full md:w-1/2 flex flex-col items-center mt-[-20px] md:mt-[-50px]">
+              <div className="w-full md:w-1/2 flex flex-col items-center">
                 {/* <StickerImage src="/st2.svg" alt="Sticker 1" className="top-0 left-0" /> */}
 
                 <Image
-                  src="/right-hero.svg"
+                  src="/SVG-01.svg"
                   alt="Right Hero Image"
                   priority={true}
-                  width={1000}
-                  height={1000}
-                  className="rounded-lg animate-float "
+                  width={450}
+                  height={450}
+                  className="rounded-lg animate-float"
                   onContextMenu={(e) => e.preventDefault()}
                   draggable={false}
                 />
 
-                <div className="md:w-1/2 space-y-6 text-center md:text-left block md:hidden mt-[-100px]">
+                <div className="md:w-1/2 space-y-6 text-center md:text-left block md:hidden mt-[-100px] z-10">
                   <Image
                     src="/hero-left-mobile.svg"
                     alt="Left Hero Image"
@@ -288,7 +290,10 @@ export default function Component() {
         <RiverBorder />
       </div>
 
-      <div id="tokenomics" className="container mx-auto px-4 py-16 pt-28 relative">
+      <div
+        id="tokenomics"
+        className="container mx-auto px-4 py-16 pt-28 relative"
+      >
         <StickerImage
           src="/st5.svg"
           alt="Sticker 7"
@@ -305,11 +310,11 @@ export default function Component() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
-              src="/toby2.png"
+              src="/SVG-02.svg"
               alt="Tokenomics Illustration"
               width={500}
               height={700}
-              className="rounded-lg shadow-2xl"
+              className=""
               onContextMenu={(e) => e.preventDefault()}
               draggable={false}
             />
@@ -370,7 +375,10 @@ export default function Component() {
         <RiverBorder />
       </div>
 
-      <div id="how-to-buy" className="container mx-auto px-4 py-16 pt-28 relative">
+      <div
+        id="how-to-buy"
+        className="container mx-auto px-4 py-16 pt-28 relative"
+      >
         <StickerImage
           src="/st3.svg"
           alt="Sticker 7"
@@ -508,6 +516,18 @@ export default function Component() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="mb-[-70px]">
+        <Image
+          src={"/green-over.png"}
+          alt={`footer`}
+          width={1400}
+          height={200}
+          className="mx-auto shadow-sm border-b-2"
+          onContextMenu={(e) => e.preventDefault()}
+          draggable={false}
+        />
       </div>
 
       <footer className="bg-green-500 text-white py-8 mt-16">
