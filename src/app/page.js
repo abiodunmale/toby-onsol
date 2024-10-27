@@ -314,7 +314,8 @@ export default function Component() {
               alt="Tokenomics Illustration"
               width={500}
               height={700}
-              className=""
+              priority={true}
+              className="animate-float"
               onContextMenu={(e) => e.preventDefault()}
               draggable={false}
             />
@@ -522,6 +523,7 @@ export default function Component() {
         <Image
           src={"/green-over.png"}
           alt={`footer`}
+          priority={true}
           width={1200}
           height={200}
           className="mx-auto shadow-sm rounded-xl"
