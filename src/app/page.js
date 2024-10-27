@@ -518,13 +518,13 @@ export default function Component() {
         </div>
       </div>
 
-      <div className="mb-[-70px]">
+      <div className="mb-[-40px] ml-10 mr-10">
         <Image
           src={"/green-over.png"}
           alt={`footer`}
-          width={1400}
+          width={1200}
           height={200}
-          className="mx-auto shadow-sm border-b-2"
+          className="mx-auto shadow-sm rounded-xl"
           onContextMenu={(e) => e.preventDefault()}
           draggable={false}
         />
