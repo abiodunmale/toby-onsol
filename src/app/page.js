@@ -248,9 +248,9 @@ export default function Component() {
                   draggable={false}
                 />
 
-                <div className="md:w-1/2 space-y-6 text-center md:text-left block md:hidden mt-[-100px] z-10">
+                <div className="md:w-1/2 space-y-6 text-center md:text-left block md:hidden mt-[-100px] mb-[30px] z-10">
                   <Image
-                    src="/hero-left-mobile.svg"
+                    src="/Toby (24).svg"
                     alt="Left Hero Image"
                     priority={true}
                     width={500}
