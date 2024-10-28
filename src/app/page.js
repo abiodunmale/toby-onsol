@@ -223,7 +223,7 @@ export default function Component() {
               />
               <div className="md:w-1/2 space-y-6 text-center ml-20 mt-10 md:text-left hidden md:block">
                 <Image
-                  src="/hero-left.svg"
+                  src="/Toby (25).svg"
                   alt="Left Hero Image"
                   priority={true}
                   width={500}
