@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/font": "^14.2.15",
     "canvas-confetti": "^1.9.3",
     "gsap": "^3.12.5",
     "lucide-react": "^0.453.0",

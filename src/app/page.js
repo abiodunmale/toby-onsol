@@ -87,6 +87,20 @@ export default function Component() {
     "/sa5.png?height=300&width=300",
     "/sa6.png?height=300&width=300",
     "/sa7.png?height=300&width=300",
+    "/sa8.png?height=300&width=300",
+    "/sa9.png?height=300&width=300",
+    "/sa10.png?height=300&width=300",
+    "/sa11.png?height=300&width=300",
+    "/sa12.png?height=300&width=300",
+    "/sa13.png?height=300&width=300",
+    "/sa14.png?height=300&width=300",
+    "/sa15.png?height=300&width=300",
+    "/sa16.png?height=300&width=300",
+    "/sa17.png?height=300&width=300",
+    "/sa18.png?height=300&width=300",
+    "/sa19.png?height=300&width=300",
+    "/sa20.png?height=300&width=300",
+    "/sa21.png?height=300&width=300",
   ];
 
   useEffect(() => {
