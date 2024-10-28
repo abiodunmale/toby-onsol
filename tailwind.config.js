@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        tiny5: ["Tiny5"],
+      }
     },
   },
   plugins: [],

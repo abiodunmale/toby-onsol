@@ -1,13 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap'); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
-.font-comic-sans {
+/* .font-comic-sans {
   font-family: 'Comic Neue', cursive;
-}
+} */
+
+/* .font-permanent {
+  font-family: "Permanent Marker", cursive;
+} */
 
 @keyframes flowRight {
   0% { background-position: 0 0; }

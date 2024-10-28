@@ -119,7 +119,7 @@ export default function Component() {
   };
 
   return (
-    <div className="min-h-screen bg-[#02418a] font-comic-sans">
+    <div className="min-h-screen bg-[#02418a]">
       <div className="container mx-auto px-4 pt-8">
         <header className="bg-green-500 text-white rounded-[3rem] fixed top-6 left-12 right-12  shadow-lg mb-8 border-2 border-white z-50 overflow-hidden">
           <CloudBorder className="z-0" />
@@ -194,20 +194,20 @@ export default function Component() {
             <StickerImage
               src="/st1.svg"
               alt="Sticker 1"
-              className="top-0 -z-50 right-0"
+              className="top-24 -z-50 right-0"
             />
             <StickerImage
               src="/st2.svg"
               alt="Sticker 2"
-              className="bottom-0 -z-50 left-0"
+              className="bottom-0 md:bottom-24 -z-50 left-0"
             />
             <div className="flex flex-col md:flex-row items-center justify-between relative">
               <StickerImage
                 src="/st3.svg"
                 alt="Sticker 1"
-                className="absolute inset-0 -z-50 top-4"
+                className="absolute inset-0 -z-50 top-1"
               />
-              <div className="md:w-1/2 space-y-6 text-center ml-10 md:text-left hidden md:block">
+              <div className="md:w-1/2 space-y-6 text-center ml-20 mt-10 md:text-left hidden md:block">
                 <Image
                   src="/hero-left.svg"
                   alt="Left Hero Image"
@@ -220,11 +220,11 @@ export default function Component() {
                 />
               </div>
 
-              <div className="w-full md:w-1/2 flex flex-col items-center">
+              <div className="w-full md:w-1/2 md:mr-10 flex flex-col items-center">
                 {/* <StickerImage src="/st2.svg" alt="Sticker 1" className="top-0 left-0" /> */}
 
                 <Image
-                  src="/SVG-01.svg"
+                  src="/SVG-02.svg"
                   alt="Right Hero Image"
                   priority={true}
                   width={450}
@@ -310,7 +310,7 @@ export default function Component() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
-              src="/SVG-02.svg"
+              src="/2-01.svg"
               alt="Tokenomics Illustration"
               width={500}
               height={700}
