@@ -345,7 +345,7 @@ export default function Component() {
                   { title: "Current Supply", content: "999,746,965 $TOBY" },
                   {
                     title: "Contract Address",
-                    content: "9hwqf6X7wja2UNv9AmxfxRi19K9ZfgwGeZ2Ryj64qn95",
+                    content: "Gx8jR2sT6mJCgxcLV3DAXpVKLtf3dHiQfHqwhrhtpump",
                     span: "col-span-full",
                   },
                 ].map((item, index) => (
