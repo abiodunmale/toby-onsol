@@ -234,11 +234,11 @@ export default function Component() {
                 />
               </div>
 
-              <div className="w-full md:w-1/2 md:mr-10 flex flex-col items-center">
+              <div className="w-full md:w-1/2 md:mr-10 flex flex-col items-center mt-10">
                 {/* <StickerImage src="/st2.svg" alt="Sticker 1" className="top-0 left-0" /> */}
 
                 <Image
-                  src="/SVG-02.svg"
+                  src="/image-right.png"
                   alt="Right Hero Image"
                   priority={true}
                   width={450}
@@ -248,7 +248,7 @@ export default function Component() {
                   draggable={false}
                 />
 
-                <div className="md:w-1/2 space-y-6 text-center md:text-left block md:hidden mt-[-100px] mb-[30px] z-10">
+                <div className="md:w-1/2 space-y-6 text-center md:text-left block md:hidden mt-[-20px] mb-[30px] z-10">
                   <Image
                     src="/Toby (24).svg"
                     alt="Left Hero Image"
@@ -261,7 +261,7 @@ export default function Component() {
                   />
                 </div>
 
-                <div className="flex items-center space-x-4 md:mt-[-100px]">
+                <div className="flex items-center space-x-4 mt-4">
                   <BuyButton className="mb-0" />
                   <Link
                     href="https://twitter.com/TobyOnSolCTO"
