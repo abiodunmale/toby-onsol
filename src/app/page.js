@@ -205,7 +205,7 @@ export default function Component() {
 
         <main className="relative z-0">
           <div className="container mx-auto px-4 py-16 relative">
-            <StickerImage
+            {/* <StickerImage
               src="/st1.svg"
               alt="Sticker 1"
               className="top-24 -z-50 right-0"
@@ -214,13 +214,13 @@ export default function Component() {
               src="/st2.svg"
               alt="Sticker 2"
               className="bottom-0 md:bottom-24 -z-50 left-0"
-            />
+            /> */}
             <div className="flex flex-col md:flex-row items-center justify-between relative">
-              <StickerImage
+              {/* <StickerImage
                 src="/st3.svg"
                 alt="Sticker 1"
                 className="absolute inset-0 -z-50 top-1"
-              />
+              /> */}
               <div className="md:w-1/2 space-y-6 text-center ml-20 mt-10 md:text-left hidden md:block">
                 <Image
                   src="/Toby (25).svg"
@@ -279,11 +279,11 @@ export default function Component() {
                   </Link>
                 </div>
               </div>
-              <StickerImage
+              {/* <StickerImage
                 src="/st6.svg"
                 alt="Sticker 1"
                 className="absolute -z-50 bottom-[-60px] md:bottom-10 right-0"
-              />
+              /> */}
             </div>
           </div>
         </main>
@@ -308,7 +308,7 @@ export default function Component() {
         id="tokenomics"
         className="container mx-auto px-4 py-16 pt-28 relative"
       >
-        <StickerImage
+        {/* <StickerImage
           src="/st5.svg"
           alt="Sticker 7"
           className="top-0 right-0 z-0"
@@ -317,7 +317,7 @@ export default function Component() {
           src="/st7.svg"
           alt="Sticker 8"
           className="bottom-0 left-0"
-        />
+        /> */}
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           &quot;Tokenomics&quot;
         </h2>
@@ -394,7 +394,7 @@ export default function Component() {
         id="how-to-buy"
         className="container mx-auto px-4 py-16 pt-28 relative"
       >
-        <StickerImage
+        {/* <StickerImage
           src="/st3.svg"
           alt="Sticker 7"
           className="top-0 right-0"
@@ -403,7 +403,7 @@ export default function Component() {
           src="/st2.svg"
           alt="Sticker 8"
           className="bottom-0 left-0"
-        />
+        /> */}
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           &quot;How to Buy&quot;
         </h2>
@@ -459,7 +459,7 @@ export default function Component() {
       </div>
 
       <div id="join-us" className="container mx-auto px-4 py-16 pt-28 relative">
-        <StickerImage
+        {/* <StickerImage
           src="/st9.svg"
           alt="Sticker 7"
           className="top-0 right-0"
@@ -468,7 +468,7 @@ export default function Component() {
           src="/st4.svg"
           alt="Sticker 8"
           className="bottom-0 left-0"
-        />
+        /> */}
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           &quot;Family Pack&quot;
         </h2>
