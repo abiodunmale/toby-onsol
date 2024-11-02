@@ -19,6 +19,7 @@ import {
   Rocket,
 } from "lucide-react";
 import Marquee from "react-fast-marquee";
+import assets from "../../utils/fpacks";
 
 const RiverBorder = () => (
   <div className="absolute inset-x-0 h-4 z-0">
@@ -79,29 +80,6 @@ export default function Component() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const carouselRef = useRef(null);
 
-  const assets = [
-    "/sa1.png?height=300&width=300",
-    "/sa2.png?height=300&width=300",
-    "/sa3.png?height=300&width=300",
-    "/sa4.png?height=300&width=300",
-    "/sa5.png?height=300&width=300",
-    "/sa6.png?height=300&width=300",
-    "/sa7.png?height=300&width=300",
-    "/sa8.png?height=300&width=300",
-    "/sa9.png?height=300&width=300",
-    "/sa10.png?height=300&width=300",
-    "/sa11.png?height=300&width=300",
-    "/sa12.png?height=300&width=300",
-    "/sa13.png?height=300&width=300",
-    "/sa14.png?height=300&width=300",
-    "/sa15.png?height=300&width=300",
-    "/sa16.png?height=300&width=300",
-    "/sa17.png?height=300&width=300",
-    "/sa18.png?height=300&width=300",
-    "/sa19.png?height=300&width=300",
-    "/sa20.png?height=300&width=300",
-    "/sa21.png?height=300&width=300",
-  ];
 
   useEffect(() => {
     setIsVisible(true);
