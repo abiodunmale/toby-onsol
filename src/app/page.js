@@ -324,7 +324,7 @@ export default function Component() {
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <Image
-              src="/2.png"
+              src="/SVG-02.svg"
               alt="Tokenomics Illustration"
               width={500}
               height={700}
